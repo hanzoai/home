@@ -1,0 +1,10 @@
+// Re-export all components
+export { StatsProvider, useStats } from './StatsProvider'
+export { Hero } from './Hero'
+export { Tabs } from './Tabs'
+export { OverviewTab } from './OverviewTab'
+export { CodeTab } from './CodeTab'
+export { MusicTab } from './MusicTab'
+export { SocialTab } from './SocialTab'
+export { QueryTab } from './QueryTab'
+export { Footer } from './Footer'

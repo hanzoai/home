@@ -1,0 +1,39 @@
+{
+  "name": "@hanzo/home",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Personal homepage template with stats dashboard - fork and customize",
+  "license": "BSD-3-Clause",
+  "author": "Hanzo AI, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanzoai/home"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "sync": "node scripts/sync-data.mjs"
+  },
+  "dependencies": {
+    "@hanzo/stats": "file:../stats",
+    "@hanzo/ui": "file:../ui",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.10.0",
+    "sql.js": "^1.10.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

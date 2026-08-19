@@ -1,7 +1,7 @@
 {
   "name": "@hanzo/home",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "description": "Personal homepage template with stats dashboard - fork and customize",
   "license": "BSD-3-Clause",
   "author": "Hanzo AI, Inc.",
